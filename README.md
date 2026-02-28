@@ -1,73 +1,85 @@
-# Welcome to your Lovable project
+# ❤️ MedPredict AI  
+### AI-Powered Heart Disease Risk Assessment System  
 
-## Project info
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![FastAPI](https://img.shields.io/badge/Backend-FastAPI-green)
+![Machine Learning](https://img.shields.io/badge/ML-Scikit--Learn-orange)
+![Status](https://img.shields.io/badge/Project-Hackathon%20Ready-success)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🩺 Overview
 
-There are several ways of editing your application.
+MedPredict AI is a full-stack healthcare application designed to provide early heart disease risk assessment using machine learning.
 
-**Use Lovable**
+It transforms common health and lifestyle inputs into a real-time risk probability score, helping users understand potential health risks before serious complications occur.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚨 Problem Statement
 
-**Use your preferred IDE**
+Heart disease remains one of the leading causes of death worldwide.  
+Many individuals are unaware of their risk level until severe symptoms appear.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Traditional screening methods:
+- Can be expensive
+- Require hospital visits
+- Are not always accessible in rural areas
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+There is a need for a fast, affordable, and accessible early screening tool.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 💡 Our Solution
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+MedPredict AI provides:
 
-# Step 3: Install the necessary dependencies.
-npm i
+✔ Instant AI-based heart disease risk prediction  
+✔ Simple structured health input form  
+✔ Real-time probability score  
+✔ Preventive health recommendations  
+✔ Clean and intuitive user interface  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🧠 System Architecture
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 🔹 Frontend
+- React + Vite
+- TailwindCSS
+- Dynamic form handling
+- Real-time UI updates
 
-**Use GitHub Codespaces**
+### 🔹 Backend
+- FastAPI
+- REST API architecture
+- Input validation using Pydantic
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 🔹 Machine Learning
+- Supervised classification model
+- Trained on structured healthcare dataset
+- Outputs risk probability score
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## ✨ Key Features
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- 📊 Real-time heart disease risk prediction  
+- 🧾 Structured multi-section health form  
+- 🔄 Frontend–Backend API integration  
+- 📈 Probability-based risk score visualization  
+- 🏥 Preventive healthcare focus  
+- ⚡ Lightweight and scalable architecture  
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 🏥 Real-World Applications
 
-## Can I connect a custom domain to my Lovable project?
+- Quick screening in clinics  
+- Rural healthcare camps  
+- Telemedicine platforms  
+- Corporate wellness programs  
+- Preventive healthcare initiatives  
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
